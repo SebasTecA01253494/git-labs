@@ -48,7 +48,7 @@ if st.button("POST spark submit"):
 
 st.header("spark-submit results")
 
-url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/SebasTecA01253494/git-labs/refs/heads/master/results/part-00000-c6e42ab5-9686-48f1-8435-ec3a5f34d16b-c000.json')
+url_results=  st.text_input('URL results', value='https://raw.githubusercontent.com/SebasTecA01253494/git-labs/refs/heads/master/results/data.json')
 
 if st.button("GET spark results"):
     get_spark_results(url_results)
